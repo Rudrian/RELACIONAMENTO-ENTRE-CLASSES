@@ -1,0 +1,14 @@
+package Rela_entre_classes;
+ 
+public class Principal2 {
+ 
+	public static void main(String[] args) {
+ 
+	Autor autor = new Autor("Willian Steig");
+	Livro livro = new Livro("Shrek", autor);
+ 
+	System.out.println("O título do livro é: " + livro.getTitulo() + ", e o autor é: " + livro.getAutor().getNome());
+ 
+	}
+}
+ 
